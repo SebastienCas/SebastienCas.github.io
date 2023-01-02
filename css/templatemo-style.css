@@ -371,11 +371,11 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 .grid-item:last-child { margin-bottom: 0; }
 
 .tm-img-gallery-container {
-	max-width: 320px;
+	max-width: 453px;
     margin: 0 auto;
 }
 
-.tm-img-gallery-container-3 { max-width: none; }
+.tm-img-gallery-container-3 { max-width: 453px; }
 
 .tm-img-gallery {
 	margin: 0 auto 10px;
@@ -511,7 +511,7 @@ figure.effect-ruby:hover img {
     position: relative;
     display: block;
     max-width: 100%;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .cd-hero-slider h2 { font-size: 1.5em; }
@@ -543,7 +543,7 @@ figure.effect-ruby:hover img {
 }
 
 .tm-white-box-margin-b { margin-bottom: 30px; }
-.gallery-one .grid-item { max-width: 340px; }
+.gallery-one .grid-item { max-width: 453px; }
 .gallery-two .grid-item { max-width: 453px; }
 .tm-img-gallery-container-2 { max-width: 453px; }
 .tm-gallery-title span { width: 100%; }
@@ -590,7 +590,7 @@ figure.effect-ruby:hover img {
 
 	.gallery-two .grid-item,
 	.gallery-three .grid-item {
-		width: 100%;
+		width: 70%;
 	}
 
 	.tm-img-gallery-info-container {
@@ -718,9 +718,9 @@ figure.effect-ruby:hover img {
 	.tm-img-gallery-container-2,
 	.tm-img-gallery-container-3 { max-width: 1360px; }
 
-	.grid-item { width: 25%; }
+	.grid-item { width: 23%; }
 	.gallery-two .grid-item { width: 33.3333%; }
-	.gallery-three .grid-item { width: 50%; }
+	.gallery-three .grid-item { width: 40%; }
 	.grid-item figure figcaption { padding: 1em; }
 	.cd-hero-slider .selected .cd-full-width .gallery-one figure.effect-ruby h2.tm-figure-title,
 	.cd-hero-slider .selected .cd-full-width .gallery-two figure.effect-ruby h2.tm-figure-title {
