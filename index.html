@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Upper HTML Website Template</title>
+    <title>Gite Les Versannes</title>
 <!--
 Upper Template
 http://www.templatemo.com/tm-497-upper
@@ -31,6 +31,7 @@ http://www.templatemo.com/tm-497-upper
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
 </head>
+
 
     <body>
         
@@ -343,17 +344,93 @@ http://www.templatemo.com/tm-497-upper
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="tm-flex">
+                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding tm-white-box-margin-b">
+                                            <h2 class="tm-text-title">Lorem ipsum dolor</h2>
+                                            <p class="tm-text">Nulla efficitur, ligula et imperdiet volutpat, lacus tortor tempus massa, eget tempus quam nibh vel nulla. Vivamus non molestie leo, non tincidunt diam. Mauris sagittis elit in velit ultricies aliquet sed in magna. Pellentesque semper, est nec consequat viverra, sem augue tincidunt nisi, a posuere nisi sapien sed sapien. Nulla facilisi.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
                                         <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
                                             <h2 class="tm-text-title">Nulla facilisi</h2>
+
+                                                <!-- for optimal display on high DPI devices -->
+                                                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+                                                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
+                                                
+                                                <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+                                                <script src="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.js"></script>
+                                                
+                                                <div id="viewer" style="width: 350px; height: 500px;">
+                                                    <script>
+                                                        const viewer = new PhotoSphereViewer.Viewer({
+                                                            container: document.querySelector('#viewer'),
+                                                            panorama: "https://raw.githubusercontent.com/SebastienCas/SebastienCas.github.io/main/img/bas.jpg",
+                                                            panoData: {
+                                                                fullWidth: 12800,
+                                                                fullHeight: 6400,
+                                                                croppedWidth: 12800,
+                                                                croppedHeight: 3180,
+                                                                croppedX: 0,
+                                                                croppedY: 1610,
+                                                                poseHeading: 270, // 0 to 360
+                                                                posePitch: 0, // -90 to 90
+                                                                poseRoll: 0, // -180 to 180
+                                                    }
+                                                    });
+                                                    </script>
+                                                </div>
+    
+                                                <!-- Photosphere -->
+
                                             <p class="tm-text">Donec vitae bibendum est, et ultrices urna. Curabitur ac bibendum augue, a convallis mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ultrices placerat arcu.</p>
                                         </div>
+                                        
                                         <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
                                             <h2 class="tm-text-title">Aliquam sem sem</h2>
+
+                                            <!-- for optimal display on high DPI devices -->
+                                            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+                                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
+                                            
+                                            <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+                                            <script src="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.js"></script>
+                                            
+                                            <div id="viewer1" style="width: 350px; height: 500px;">
+                                                <script>
+                                                    const viewer1 = new PhotoSphereViewer.Viewer({
+                                                        container: document.querySelector('#viewer1'),
+                                                        panorama: "https://raw.githubusercontent.com/SebastienCas/SebastienCas.github.io/main/img/haut.jpg",
+                                                        panoData: {
+                                                            fullWidth: 12800,
+                                                            fullHeight: 6400,
+                                                            croppedWidth: 12800,
+                                                            croppedHeight: 3180,
+                                                            croppedX: 0,
+                                                            croppedY: 1610,
+                                                            poseHeading: 270, // 0 to 360
+                                                            posePitch: 0, // -90 to 90
+                                                            poseRoll: 0, // -180 to 180
+                                                }
+                                                });
+                                                </script>
+                                            </div>
+
+                                            <!-- Photosphere -->
+
                                             <p class="tm-text">Proin sagittis mauris dolor, vel efficitur lectus dictum nec. Sed ultrices placerat arcu, id malesuada metus cursus suscipit. Donex quis consectetur ligula. Proin accumsan eros id nisi porttitor, a facilisis quam cursus.</p>     
                                         </div>
                                     </div>
                                 </div>
-                            </div>                        
+                            </div>
+                            
+                            
                         </div>              
                     </div> <!-- .cd-full-width -->
 
@@ -368,85 +445,25 @@ http://www.templatemo.com/tm-497-upper
                                     <div class="col-xs-12">
                                         <div class="tm-flex tm-contact-container">                                
                                             <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
-                                                <h2 class="tm-contact-info">Contact Us</h2>
+                                                <h2 class="tm-contact-info">Contact</h2>
                                                 <p class="tm-text">Praesent tempus dapibus odio nec elementum. Sed elementum est quis tortor faucibus, et molestie nibh finibus. Mauris condimentum ex vestibulum fringilla consectetur.</p>                                                
                                                 
-                                                <!-- contact form 
-                                                <form action="index.html" method="post" class="tm-contact-form">
-
-                                                    <div class="form-group">
-                                                        <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
-                                                    </div>
-                                        
-                                                    <div class="form-group">                                                        
-                                                        <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
-                                                    </div>                                                        
-                                                    
-                                                    <div class="form-group">
-                                                        <textarea id="contact_message" name="contact_message" class="form-control" rows="5" placeholder="Your message" required></textarea>
-                                                    </div> 
-
-                                                    <button type="submit" class="pull-xs-right tm-submit-btn">Send</button>  
-                                                
-                                                </form>  /////////
-
-                                                <link href="css/contact-form.css" rel="stylesheet">
-
-                                                <div class="tm-contact-form">
-                                                
-                                                    <div id="fcf-form">
-                                                    <h2 class="tm-contact-info">Contactez nous</h3>
-                                                
-                                                    <form id="fcf-form-id" class="fcf-form-class" method="post" action="php/contact-form-process.php">
-                                                        
-                                                        <div class="form-group">
-                                                            <label for="Name" class="fcf-label">Votre nom</label>
-                                                            <div class="form-group">
-                                                                <input type="text" id="Name" name="Name" class="form-control" required>
-                                                            </div>
-                                                        </div>
-                                                
-                                                        <div class="form-group">
-                                                            <label for="Email" class="fcf-label">Votre addresse email</label>
-                                                            <div class="fcf-input-group">
-                                                                <input type="email" id="Email" name="Email" class="form-control" required>
-                                                            </div>
-                                                        </div>
-                                                
-                                                        <div class="form-group">
-                                                            <label for="Message" class="fcf-label">Votre message</label>
-                                                            <div class="fcf-input-group">
-                                                                <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
-                                                            </div>
-                                                        </div>
-                                                
-                                                        <div class="form-group">
-                                                            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Envoyer</button>
-                                                        </div>
-                                                
-                                                        <div class="fcf-credit" id="fcf-credit">
-                                                        Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
-                                                        </div>
-                                                
-                                                    </form>
-                                                    </div>
-                                                
-                                                </div>
-
-                                                -->
+                                                <!-- contact form formspree -->
 
                                                 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mwkjkpzb" method="post">
                                                     <fieldset id="fs-frm-inputs">
-                                                      <label for="full-name">Full Name</label>
-                                                      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                                                      <label for="email-address">Email Address</label>
+                                                      <label for="full-name">Nom et Pr&eacute;nom</label>
+                                                      <input type="text" name="name" id="full-name" placeholder="Nom et Pr&eacute;nom" required="">
+                                                      <label for="email-address">Adresse email</label>
                                                       <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
                                                       <label for="message">Message</label>
                                                       <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
                                                       <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                                                     </fieldset>
-                                                    <input type="submit" value="Submit">
-                                                  </form><style>/* reset */
+                                                    <input type="submit" value="Envoyer">
+                                                  </form>
+                                                  
+                                                  <style>/* reset */
                                                   #fs-frm input,
                                                   #fs-frm select,
                                                   #fs-frm textarea,
@@ -469,7 +486,7 @@ http://www.templatemo.com/tm-497-upper
                                                   #fs-frm label,
                                                   #fs-frm legend,
                                                   #fs-frm ::placeholder {
-                                                    font-size: .825rem;
+                                                    font-size: 1.75rem;
                                                     margin-bottom: .5rem;
                                                     padding-top: .2rem;
                                                     display: flex;
@@ -536,23 +553,7 @@ http://www.templatemo.com/tm-497-upper
                                                     appearance: radio;
                                                   }
                                                   
-                                                  /* address, locale */
-                                                  #fs-frm fieldset.locale input[name="city"],
-                                                  #fs-frm fieldset.locale select[name="state"],
-                                                  #fs-frm fieldset.locale input[name="postal-code"] {
-                                                    display: inline;
-                                                  }
-                                                  #fs-frm fieldset.locale input[name="city"] {
-                                                    width: 52%;
-                                                  }
-                                                  #fs-frm fieldset.locale select[name="state"],
-                                                  #fs-frm fieldset.locale input[name="postal-code"] {
-                                                    width: 20%;
-                                                  }
-                                                  #fs-frm fieldset.locale input[name="city"],
-                                                  #fs-frm fieldset.locale select[name="state"] {
-                                                    margin-right: 3%;
-                                                  }
+
                                                   </style>
 
                                                 
